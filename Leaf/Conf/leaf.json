@@ -1,0 +1,28 @@
+{
+	/****
+	* DATASET PATHS
+	****/
+	"image_dataset": "Dataset",
+
+	/****
+	* FEATURE EXTRACTION
+	****/
+	"features_path": "output/leaf/leaf_features.hdf5",
+	"percent_gt_images": 1,
+	"offset": 5,
+	"use_flip": true,
+
+	/****
+	* HISTOGRAM OF ORIENTED GRADIENTS DESCRIPTOR
+	****/
+	"orientations": 9,
+	"pixels_per_cell": [4, 4],
+	"cells_per_block": [2, 2],
+	"normalize": true,
+	
+	/****
+	* LINEAR SVM
+	****/
+	"classifier_path": "output/leaf/model_with_hn.cpickle",
+	"C": 0.01
+}
